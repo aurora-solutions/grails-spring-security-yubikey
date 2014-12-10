@@ -1,0 +1,22 @@
+<plugin name='yubi-key-authentication' version='1.1' grailsVersion='2.2 &gt; *'>
+  <author>Muhammad Ikram Ul Haq</author>
+  <authorEmail>ikram@aurorasolution.org</authorEmail>
+  <title>Yubi Key Authentication Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/yubi-key-authentication</documentation>
+  <type>YubiKeyAuthenticationGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='spring-security-core' version='1.2.7.3' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
