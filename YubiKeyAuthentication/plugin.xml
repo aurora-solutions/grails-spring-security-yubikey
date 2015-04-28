@@ -1,8 +1,8 @@
 <plugin name='yubi-key-authentication' version='1.1' grailsVersion='2.2 &gt; *'>
   <author>Muhammad Ikram Ul Haq</author>
-  <authorEmail>ikram@aurorasolution.org</authorEmail>
+  <authorEmail>ikram@aurorasolution.io</authorEmail>
   <title>Yubi Key Authentication Plugin</title>
-  <description>Brief summary/description of the plugin.
+  <description>This plugin lets you to enable 2FA using Yubikey inside Grails application.
 </description>
   <documentation>http://grails.org/plugin/yubi-key-authentication</documentation>
   <type>YubiKeyAuthenticationGrailsPlugin</type>
