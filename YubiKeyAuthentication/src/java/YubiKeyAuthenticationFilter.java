@@ -35,7 +35,7 @@ public class YubiKeyAuthenticationFilter extends UsernamePasswordAuthenticationF
 
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response){
 
-        String yubiKeyOneTimePassword = request.getParameter("j_oneTimePassword");
+        String yubiKeyOneTimePassword = obtainYubiKeyOneTimePassword(request);
 
         if (yubiKeyOneTimePassword == null) {
             yubiKeyOneTimePassword = "";
@@ -67,6 +67,10 @@ public class YubiKeyAuthenticationFilter extends UsernamePasswordAuthenticationF
         }
 
         return super.attemptAuthentication(request, response);
+    }
+
+    protected String obtainYubiKeyOneTimePassword(HttpServletRequest request){
+        return   request.getParameter("j_oneTimePassword");
     }
 
     @Override
