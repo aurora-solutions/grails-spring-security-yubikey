@@ -11,13 +11,13 @@ class YubiKeyAuthenticationGrailsPlugin {
     // TODO Fill in these fields
     def title = "Yubi Key Authentication Plugin" // Headline display name of the plugin
     def author = "Muhammad Ikram Ul Haq"
-    def authorEmail = "ikram@aurorasolution.org"
+    def authorEmail = "ikram@aurorasolution.io"
     def description = '''\
 Brief summary/description of the plugin.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/yubi-key-authentication"
+//    def documentation = "http://grails.org/plugin/yubi-key-authentication"
 
     // Extra (optional) plugin metadata
 
